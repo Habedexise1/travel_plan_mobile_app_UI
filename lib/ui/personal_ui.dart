@@ -348,13 +348,13 @@ class PersonalPage extends StatelessWidget {
                           children: <Widget>[
                             Row(
                               children: <Widget>[
-                                Icon(Icons.flight),
+                                Icon(Icons.food_bank),
                                 SizedBox(width: 20),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Wizz Air Flight',
+                                      'Food',
                                       style: TextStyle(
                                         fontSize: 14,
                                         fontWeight: FontWeight.bold,
@@ -374,7 +374,7 @@ class PersonalPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '-#1,260',
+                                  '-#10',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                   ),

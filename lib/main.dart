@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_plan_mobile_app/ui/ongoing_ui.dart';
 
 import 'ui/personal_ui.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PersonalPage(
+      home: Ongoing(
         title: 'app',
       ),
     );
